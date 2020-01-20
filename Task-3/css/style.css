@@ -93,3 +93,9 @@ body {
 #faq .card-header {
   background: #333;
 }
+
+#blog-header {
+  background: url("../img/image2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
