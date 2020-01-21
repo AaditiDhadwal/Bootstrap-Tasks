@@ -1,0 +1,38 @@
+#btnStyle button {
+  padding: 10px;
+  width: 100%;
+}
+
+#main-footer {
+  margin-top: 136px;
+}
+
+.navbar-dark .navbar-nav .show > .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#categories .page-item.active .page-link {
+  background: #28a745;
+  border-color: #28a745;
+  color: #fff;
+}
+
+#categories .page-link {
+  color: #28a745;
+}
+
+#users .page-item.active .page-link {
+  background: #ffc107;
+  border-color: #ffc107;
+  color: #fff;
+}
+
+#users .page-link {
+  color: #ffc107;
+}
+
+#categories .page-item.disabled .page-link,
+#users .page-item.disabled .page-link {
+  color: #6c757d;
+  pointer-events: none;
+}
